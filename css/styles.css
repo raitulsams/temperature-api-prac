@@ -1,6 +1,10 @@
 .container{
   text-align: center;
 }
+.con{
+  text-align: center;
+}
+
 *{
   padding: 0;
   margin: 0;
@@ -8,7 +12,7 @@
 }
 
 body {
-  height: 100vh;
+  height: auto;
   display: flex;
   background-color: #12355B;
   justify-content: center;
@@ -21,11 +25,15 @@ body {
   background: #1488CC;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  width: 500px;
-  height: 300px;
+  width: 52vw;
+  height:  30vh;
   position: relative;
   border-radius: 50px;
   box-shadow: 0 10px 20px rgba(0,0,0,.1), 0 10px 10px rgba(0,0,0,.1);
+  /* top: 0;
+  left: 0; */
+  /* align-items: center; */
+  /* margin: auto; */
 }
 
 /* add moon and outer moon rings here */
