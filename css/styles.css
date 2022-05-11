@@ -28,10 +28,10 @@ background: linear-gradient(to bottom, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, 
   width: 52vw;
   height:  30vh;
   position: relative;
-  border-radius: 50px;
+  border-radius: 25px;
   box-shadow: 0 10px 20px rgba(0,0,0,.1), 0 10px 10px rgba(0,0,0,.1);
-  /* top: 0;
-  left: 0; */
+  top: 0;
+  left: 0;
   /* align-items: center; */
   /* margin: auto; */
 }
@@ -467,6 +467,7 @@ background: linear-gradient(to bottom, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, 
   0% {
     opacity: 0;
   }
+
   
   70% {
     opacity: 1;
