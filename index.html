@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Temperature</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="disc1"></div>
+            <div class="disc2"></div>
+            <div class="disc3"></div>
+            <div class="landscape1"></div>
+            <div class="landscape2"></div>
+            <div class="landscape3"></div>
+            <div class="landscape4"></div>
+            <div class="tree1"></div>
+            <div class="tree2"></div>
+            <div class="tree3"></div>
+            <div class="tree4"></div>
+            <div class="tree5"></div>
+            <div class="tree6"></div>
+            <div class="star s1" id="animate"></div>
+            <div class="star s2"></div>
+            <div class="star s3"></div>
+            <div class="star s4"></div>
+            <div class="star s5"></div>
+            <div class="star s6" id="animate"></div>
+            <div class="star s7"></div>
+            <div class="star s8"></div>
+            <div class="star s9" id="animate"></div>
+            <div class="star s10"></div>
+            <div class="shootingstar"></div>
+            <div class="shootingstar2"></div>
+        </div>
+
+
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input id="city" type="text" class="form-control" placeholder="Enter a location for Weather ...">
+                <div class="input-group-append">
+                    <button type="button" class="btn btn-danger" onclick="searchTemp()">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="weather-status text-white text-center">
+            <img id="img-icon" src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+            <h1 id="city-name">Dhaka</h1>
+            <h3><span id="temperature">38.06</span>&deg;C</h3>
+            <h1 id="condition" class="lead">Clouds</h1>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
