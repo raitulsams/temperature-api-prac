@@ -1,6 +1,4 @@
-.container{
-  text-align: center;
-}
+
 .con{
   align-items: center;
   justify-content: center;
@@ -22,8 +20,8 @@ body {
 
 .container { /*change the size of landscape here */
   overflow: hidden;
-  background: #1488CC;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: #1489cc00;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to bottom, #2B32B2, #1488CC);  */ /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to bottom, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   width: 51.54639175257732vw;
   height:  31.47953830010493vh;
@@ -36,35 +34,35 @@ background: linear-gradient(to bottom, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, 
 
 .disc1 {
   position: absolute;
-  top: 350px;
+  top: 40px;
   left: 125px;
   width: 220px;
   height: 220px;
   border-radius: 50%;
   background-color: #DDE4F8;
-  animation: moon3 1.8s 1 1.2s forwards;
+  animation: moon3 1s 1 0.8s forwards;
 }
 
 .disc2 {
   position: absolute;
-  top: 700px;
+  top: 50px;
   left: 155px;
   width: 160px;
   height: 160px;
   border-radius: 50%;
   background-color: #BBCAF1;
-  animation: moon2 2s 1 1s forwards;
+  animation: moon2 1.4s 1 1s forwards;
 }
 
 .disc3 {
   position: absolute;
-  top: 950px;
+  top: 60px;
   left: 175px;
   width: 120px;
   height: 120px;
   border-radius: 50%;
   background-color: #99B0EA;
-  animation: moon1 2s 1 1s forwards;
+  animation: moon1 1.6s 1 1s forwards;
 }
 
 /* add ridges or landscapes here */
